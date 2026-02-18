@@ -7,14 +7,17 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var Version = "dev"
+
 var (
 	verbose bool
 	quiet   bool
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "scribe2srt",
-	Short: "Convert audio/video files to SRT subtitles using ElevenLabs STT",
+	Use:     "scribe2srt",
+	Version: Version,
+	Short:   "Convert audio/video files to SRT subtitles using ElevenLabs STT",
 	Long: `Scribe2SRT converts audio and video files into professional SRT subtitle files
 using the ElevenLabs Speech-to-Text API with a two-stage processing pipeline
 (sentence splitting + intelligent merging).`,

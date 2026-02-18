@@ -1,4 +1,5 @@
 scribe2srt
+dist/
 *.mp4
 *.mov
 *.mkv

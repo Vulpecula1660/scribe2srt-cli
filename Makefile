@@ -1,5 +1,6 @@
 BINARY := scribe2srt
-LDFLAGS := -s -w
+VERSION ?= dev
+LDFLAGS := -s -w -X scribe2srt/cmd.Version=$(VERSION)
 
 .PHONY: build clean run test
 
