@@ -61,6 +61,14 @@ func mimeFromExt(ext string) string {
 		return "video/mp4"
 	case ".mov":
 		return "video/mov"
+	case ".mkv":
+		return "video/x-matroska"
+	case ".avi":
+		return "video/x-msvideo"
+	case ".flv":
+		return "video/x-flv"
+	case ".webm":
+		return "video/webm"
 	default:
 		return "application/octet-stream"
 	}
