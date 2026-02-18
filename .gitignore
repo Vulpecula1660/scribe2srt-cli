@@ -1,0 +1,15 @@
+scribe2srt
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.flv
+*.webm
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.ogg
+*.aac
+*.srt
+*.json
